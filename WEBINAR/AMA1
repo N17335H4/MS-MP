@@ -1,0 +1,25 @@
+cloud computing = compute/servers + storage/databases + analytics/intelligence
+benefits: 
+-cost effective [no infrastructure needed, pay only for what u use, stop resources when no usage]
+-scalable & elastic [scale up or scale down based on need, add resources during pesk usage time]
+-secure & reliable [physical and digital security, add resources during pesk usage time, global presence]
+
+deep learning or DL is a part of ML, which is part of AI.
+
+MS AI infrastructure[data -> intelligence -> experiences]
+-data + AI platform: MS bot framework, MS cognitive services, ML - DL, infrastructure + analytics in Big Data Stores
+-intelligent agents: CORTANA
+-business solutions & intelligent apps: Office 365, Dynamics 365, Calendar.help, Skype, Teams, Presentation Translator
+
+ML in action:
+-Tacomo Public Schools: predict whether students are at risk of dropping out with the goal of improving graduation rates. cloud-based predictive analytics tool to generate and analyze comprehensive data snapshots of student success indication. helped to change the perceptions of the district that students fitting certain profiles are unlikely to succeed.
+-kellogg school of management: empowering future business leaders to make data-driven decisions [decisions based on metrics not just supposition]. provided demos and user guides on customer retention, personalized offers and recommendation models to illustrate how data can be used to drive decisions and hone marketing campaigns.
+
+text analytics demo
+- code: analyze text [positive or negative feedback of product] and language identification.
+
+Q) 
+Regarding the security reasons of cloud computing, you could see that Cambridge Analytica stealing data from FaceBook data centres and distributes it. How could cloud computing explain this in terms of privacy concerns?
+if data is stored virtually on a cloud why are physical building required to do that or how is data actually stored in a data center like registers are used or something like that ?
+---
+What's so different about EDGE (browser) which has bound MS from improving it and made it a constant target for meme community.
