@@ -33,4 +33,13 @@ Traveling Salesman problem [shortest path that visits each node exactly once and
 - Held-Karp, branch and bound, many approximation algos]
 Bridges [bridge / cut-edge is any edge whose removal increases the number of connected components]
 Articulation points / cut-vertex is any vertex whose removal increases the number of connected components
-Minimum Spanning tree
+Minimum Spanning tree [a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight] [least cost network, circuit design, transportation networks]
+- Kruskal's algo, Prim's and Boruvka's algo, approximation algos
+Network flow : max flow [number of cars on roads, volume of water flowing through pipes]
+- Ford-Fulkerson, Edmond-Karp and Dinic's algo
+
+DFS: run time complexity O(V+E) [can count connected components, determine connectivity, find bridges and articulation points && compute a graph's MST, detect and find cycles, check if bipartite, find strongly connected components, topologically sort the nodes, find augmenting paths in a flow network, generate mazes] 
+- 
+
+BFS: run time complexity O(V+E) [find shortest path on unweighted graph]
+- queue
