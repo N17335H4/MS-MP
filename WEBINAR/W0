@@ -1,5 +1,13 @@
-Project judging criteria :-
-Uniqueness of Solution [better idea]
-Technical Achivement [The technical documents could include architecture design, flowcharts, or technical specification of your prototype.]
-Code Quality [measure the size, consistency, structure, and complexity of your codebase on GitHub. Your code should work on Microsoft Edge, Google Chrome, Firefox, and Safari.]
-Relevance to Theme [Stay close to the problem statement]
+Project judging criteria
+..
+-Uniqueness of Solution [better idea]
+(a) The use of minimax algorithm is mandatory. Over & above minimax algorithm, can you demonstrate any other approach that yeilds the same result?
+(b) Currently, the program plays against a human competitor. Can you change the program in such a way that two humans are able to compete against each other?
+(c) Can your program offer suggestion(s) on next move?
+(d) Any other unique idea you can think of? Don't restrict yourself to just these examples. Let your creativity go wild! 
+
+-Technical Achivement [The technical documents could include architecture design, flowcharts, or technical specification of your prototype.]
+
+-Code Quality [measure the size, consistency, structure, and complexity of your codebase on GitHub. Your code should work on Microsoft Edge, Google Chrome, Firefox, and Safari.]
+
+-Relevance to Theme [Stay close to the problem statement]
