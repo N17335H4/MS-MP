@@ -1,0 +1,12 @@
+> Version Control
+-Types: Centralised/Traditional [1 server - many clients] vs *Distributed [few clients act as servers]
+> Git
+> GitHub
+> Useful Git Terminology
+- 3 states: unstaged, staged and committed
+>Important Git commands
+> GitHub flow
+> GitHub Account walkthrough
+> Useful Links
+- gist.github.com
+- guides.github.com/features/mastering-markdown/ [mastering markdown for documentation]
