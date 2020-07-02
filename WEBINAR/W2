@@ -43,3 +43,8 @@ DFS: run time complexity O(V+E) [can count connected components, determine conne
 
 BFS: run time complexity O(V+E) [find shortest path on unweighted graph]
 - queue
+
+BFS shortest path on grid:
+Grids are a form of implicit graphs because we can determine a node's neighbours based on our location within the grid.
+A common approach to solve graph theory problems on grids is to first convert the grid into a familiar format such as adjacency lists/matrix. assume it to be unweighted. label [0,n) and then run algorithm to solvethe problems such as shortest path, connected components etc. However, transformations between graph representations can usually be avoided due to the structure of grid. 
+Dungeon Problem Statement: shortest path to escape a dungeon
