@@ -39,12 +39,22 @@ Network flow : max flow [number of cars on roads, volume of water flowing throug
 - Ford-Fulkerson, Edmond-Karp and Dinic's algo
 
 DFS: run time complexity O(V+E) [can count connected components, determine connectivity, find bridges and articulation points && compute a graph's MST, detect and find cycles, check if bipartite, find strongly connected components, topologically sort the nodes, find augmenting paths in a flow network, generate mazes] 
+pseudo code *2
 - 
 
 BFS: run time complexity O(V+E) [find shortest path on unweighted graph]
 - queue
+pseudo code
 
 BFS shortest path on grid:
 Grids are a form of implicit graphs because we can determine a node's neighbours based on our location within the grid.
 A common approach to solve graph theory problems on grids is to first convert the grid into a familiar format such as adjacency lists/matrix. assume it to be unweighted. label [0,n) and then run algorithm to solvethe problems such as shortest path, connected components etc. However, transformations between graph representations can usually be avoided due to the structure of grid. 
-Dungeon Problem Statement: shortest path to escape a dungeon
+pseudo code - direction vectors
+Dungeon Problem Statement: shortest path to escape a dungeon. state representation - array or object wrapper or *using one queue for each dimension
+- pseudo code
+
+*Topological Sort [graph with directed edges where some events occur before others] [school class prerequisites, program dependencies, event scheduling, assembly instructions etc] O(V+E) time
+- *topological orderings are not unique
+- only directed acyclic graphs [since circular dependency can't have valid ordering]
+- to verify there is no directed cycle, use Tarjan's strongly connected component algo
+- topological ordering for a DAG: pick an unvisited node, apply DFS and visit all -> nodes, on recursive callback of DFS, add the current node to topological ordering in reverse order, pick another random unvisited node //+pseudo code
