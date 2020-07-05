@@ -40,7 +40,7 @@ Network flow : max flow [number of cars on roads, volume of water flowing throug
 
 DFS: run time complexity O(V+E) [can count connected components, determine connectivity, find bridges and articulation points && compute a graph's MST, detect and find cycles, check if bipartite, find strongly connected components, topologically sort the nodes, find augmenting paths in a flow network, generate mazes] 
 pseudo code *2
-- 
+- stack
 
 BFS: run time complexity O(V+E) [find shortest path on unweighted graph]
 - queue
