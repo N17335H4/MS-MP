@@ -1,3 +1,4 @@
+Introduction to Big Data
 AGENDA
 > Changing face of Data
 > What is Big Data?
@@ -18,5 +19,17 @@ Semi-structured data: data having both structured and unstructured data. Ex- XML
 
 growth: unstructured data [exponential] >>>> structured data [~linear].
 predicted growth in 2030 = 78 YB [1 yottabyte = 10^24 bytes]
+
+ways to analyze Big Data:
+- storage:
+data lakes, which are distributed file systems
+relational databases
+- compute:
+relational databases
+no SQL databases
+Apache Spark
+Map Reduce using Hadoop
+Analytics system like Azure Synapse Analytics
+in memory databases
 
 demo: airlines structured database in Azure
