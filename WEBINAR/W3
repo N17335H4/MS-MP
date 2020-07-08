@@ -1,0 +1,22 @@
+AGENDA
+> Changing face of Data
+> What is Big Data?
+> Big Data Characteristics
+> How to handle and process Big Data
+> Demo
+
+Growth of data is primarily due to Internet, Social Media and IoT
+
+Characteristics of Big Data: [3V]
+Volume [> Peta Bytes]
+Velocity [exponential growth]
+Variety/Type [structured, semi-structured, unstructured]
+
+Structured data: data stored in fixed format. Ex- data stored in relational databasesin the form of tables with rows and columns
+Unstructured data: data not having any fixed or predetermined format. Ex- logs, web search results, emails, etc.
+Semi-structured data: data having both structured and unstructured data. Ex- XML, JSON, etc.
+
+growth: unstructured data [exponential] >>>> structured data [~linear].
+predicted growth in 2030 = 78 YB [1 yottabyte = 10^24 bytes]
+
+demo: airlines structured database in Azure
